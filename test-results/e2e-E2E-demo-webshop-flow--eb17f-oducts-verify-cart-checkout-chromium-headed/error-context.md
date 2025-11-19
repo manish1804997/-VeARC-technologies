@@ -1,0 +1,273 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Tricentis Demo Web Shop" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Tricentis Demo Web Shop" [ref=e7]
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "test11nov@test.com" [ref=e12] [cursor=pointer]:
+            - /url: /customer/info
+        - listitem [ref=e13]:
+          - link "Log out" [ref=e14] [cursor=pointer]:
+            - /url: /logout
+        - listitem [ref=e15]:
+          - link "Shopping cart (4)" [ref=e16] [cursor=pointer]:
+            - /url: /cart
+            - generic [ref=e17]: Shopping cart
+            - generic [ref=e18]: (4)
+        - listitem [ref=e19]:
+          - link "Wishlist (0)" [ref=e20] [cursor=pointer]:
+            - /url: /wishlist
+            - generic [ref=e21]: Wishlist
+            - generic [ref=e22]: (0)
+      - generic [ref=e24]:
+        - status [ref=e25]
+        - textbox [ref=e26]: Search store
+        - button "Search" [ref=e27] [cursor=pointer]
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - link "Books" [ref=e31] [cursor=pointer]:
+          - /url: /books
+      - listitem [ref=e32]:
+        - link "Computers" [ref=e33] [cursor=pointer]:
+          - /url: /computers
+      - listitem [ref=e34]:
+        - link "Electronics" [ref=e35] [cursor=pointer]:
+          - /url: /electronics
+      - listitem [ref=e36]:
+        - link "Apparel & Shoes" [ref=e37] [cursor=pointer]:
+          - /url: /apparel-shoes
+      - listitem [ref=e38]:
+        - link "Digital downloads" [ref=e39] [cursor=pointer]:
+          - /url: /digital-downloads
+      - listitem [ref=e40]:
+        - link "Jewelry" [ref=e41] [cursor=pointer]:
+          - /url: /jewelry
+      - listitem [ref=e42]:
+        - link "Gift Cards" [ref=e43] [cursor=pointer]:
+          - /url: /gift-cards
+    - generic [ref=e45]:
+      - heading "Checkout" [level=1] [ref=e47]
+      - list [ref=e49]:
+        - listitem [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: "1"
+            - heading "Billing address" [level=2] [ref=e53]
+            - text: .
+        - listitem [ref=e54]:
+          - generic [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: "2"
+            - heading "Shipping address" [level=2] [ref=e57]
+            - text: .
+        - listitem [ref=e58]:
+          - generic [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "3"
+            - heading "Shipping method" [level=2] [ref=e61]
+            - text: .
+        - listitem [ref=e62]:
+          - generic [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: "4"
+            - heading "Payment method" [level=2] [ref=e65]
+            - text: .
+        - listitem [ref=e66]:
+          - generic [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: "5"
+            - heading "Payment information" [level=2] [ref=e69]
+            - text: .
+        - listitem [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: "6"
+            - heading "Confirm order" [level=2] [ref=e73]
+            - text: .
+          - generic [ref=e74]:
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - list [ref=e81]:
+                  - listitem [ref=e82]:
+                    - strong [ref=e83]: Billing Address
+                  - listitem [ref=e84]: something something
+                  - listitem [ref=e85]: "Email: test11nov@test.com"
+                  - listitem [ref=e86]: "Phone: 6362943983"
+                  - listitem [ref=e87]: "Fax:"
+                  - listitem [ref=e88]: Vijaynagara
+                  - listitem [ref=e89]: Bengaluru , 56006
+                  - listitem [ref=e90]: India
+                  - listitem [ref=e91]:
+                    - strong [ref=e92]: Payment Method
+                  - listitem [ref=e93]: Cash On Delivery (COD)
+                - list [ref=e94]:
+                  - listitem [ref=e95]:
+                    - strong [ref=e96]: Shipping Address
+                  - listitem [ref=e97]: something something
+                  - listitem [ref=e98]: "Email: test11nov@test.com"
+                  - listitem [ref=e99]: "Phone: 6362943983"
+                  - listitem [ref=e100]: "Fax:"
+                  - listitem [ref=e101]: Vijaynagara
+                  - listitem [ref=e102]: Bengaluru , 56006
+                  - listitem [ref=e103]: India
+                  - listitem [ref=e104]:
+                    - strong [ref=e105]: Shipping Method
+                  - listitem [ref=e106]: Ground
+              - generic [ref=e107]:
+                - table [ref=e108]:
+                  - rowgroup [ref=e115]:
+                    - row "Product(s) Price Qty. Total" [ref=e116]:
+                      - cell [ref=e117]
+                      - cell "Product(s)" [ref=e118]
+                      - cell "Price" [ref=e119]
+                      - cell "Qty." [ref=e120]
+                      - cell "Total" [ref=e121]
+                  - rowgroup [ref=e122]:
+                    - row "Picture of Fiction Fiction 24.00 1 24.00" [ref=e123]:
+                      - cell "Picture of Fiction" [ref=e124]:
+                        - img "Picture of Fiction" [ref=e125]
+                      - cell "Fiction" [ref=e126]:
+                        - link "Fiction" [ref=e127] [cursor=pointer]:
+                          - /url: /fiction
+                      - cell "24.00" [ref=e128]
+                      - cell "1" [ref=e129]
+                      - cell "24.00" [ref=e130]
+                    - row "Picture of Health Book Health Book 10.00 1 10.00" [ref=e131]:
+                      - cell "Picture of Health Book" [ref=e132]:
+                        - img "Picture of Health Book" [ref=e133]
+                      - cell "Health Book" [ref=e134]:
+                        - link "Health Book" [ref=e135] [cursor=pointer]:
+                          - /url: /health
+                      - cell "10.00" [ref=e136]
+                      - cell "1" [ref=e137]
+                      - cell "10.00" [ref=e138]
+                    - row "Picture of 14.1-inch Laptop 14.1-inch Laptop 1590.00 1 1590.00" [ref=e139]:
+                      - cell "Picture of 14.1-inch Laptop" [ref=e140]:
+                        - img "Picture of 14.1-inch Laptop" [ref=e141]
+                      - cell "14.1-inch Laptop" [ref=e142]:
+                        - link "14.1-inch Laptop" [ref=e143] [cursor=pointer]:
+                          - /url: /141-inch-laptop
+                      - cell "1590.00" [ref=e144]
+                      - cell "1" [ref=e145]
+                      - cell "1590.00" [ref=e146]
+                    - row "Picture of 14.1-inch Laptop 14.1-inch Laptop 1590.00 1 1590.00" [ref=e147]:
+                      - cell "Picture of 14.1-inch Laptop" [ref=e148]:
+                        - img "Picture of 14.1-inch Laptop" [ref=e149]
+                      - cell "14.1-inch Laptop" [ref=e150]:
+                        - link "14.1-inch Laptop" [ref=e151] [cursor=pointer]:
+                          - /url: /141-inch-laptop
+                      - cell "1590.00" [ref=e152]
+                      - cell "1" [ref=e153]
+                      - cell "1590.00" [ref=e154]
+                - table [ref=e160]:
+                  - rowgroup [ref=e161]:
+                    - 'row "Sub-Total: 3214.00" [ref=e162]':
+                      - cell "Sub-Total:" [ref=e163]
+                      - cell "3214.00" [ref=e164]:
+                        - generic [ref=e165]: "3214.00"
+                    - 'row "Shipping: (Ground) 0.00" [ref=e166]':
+                      - 'cell "Shipping: (Ground)" [ref=e167]'
+                      - cell "0.00" [ref=e168]:
+                        - generic [ref=e169]: "0.00"
+                    - 'row "Payment method additional fee: 7.00" [ref=e170]':
+                      - cell "Payment method additional fee:" [ref=e171]
+                      - cell "7.00" [ref=e172]:
+                        - generic [ref=e173]: "7.00"
+                    - 'row "Tax: 0.00" [ref=e174]':
+                      - cell "Tax:" [ref=e175]
+                      - cell "0.00" [ref=e176]:
+                        - generic [ref=e177]: "0.00"
+                    - 'row "Total: 3221.00" [ref=e178]':
+                      - cell "Total:" [ref=e179]
+                      - cell "3221.00" [ref=e180]:
+                        - strong [ref=e183]: "3221.00"
+            - generic [ref=e184]:
+              - paragraph [ref=e185]:
+                - link "Back" [ref=e186] [cursor=pointer]:
+                  - /url: "#"
+              - button "Confirm" [ref=e187] [cursor=pointer]
+  - generic [ref=e188]:
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - heading "Information" [level=3] [ref=e191]
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - link "Sitemap" [ref=e194] [cursor=pointer]:
+              - /url: /sitemap
+          - listitem [ref=e195]:
+            - link "Shipping & Returns" [ref=e196] [cursor=pointer]:
+              - /url: /shipping-returns
+          - listitem [ref=e197]:
+            - link "Privacy Notice" [ref=e198] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=e199]:
+            - link "Conditions of Use" [ref=e200] [cursor=pointer]:
+              - /url: /conditions-of-use
+          - listitem [ref=e201]:
+            - link "About us" [ref=e202] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=e203]:
+            - link "Contact us" [ref=e204] [cursor=pointer]:
+              - /url: /contactus
+      - generic [ref=e205]:
+        - heading "Customer service" [level=3] [ref=e206]
+        - list [ref=e207]:
+          - listitem [ref=e208]:
+            - link "Search" [ref=e209] [cursor=pointer]:
+              - /url: /search
+          - listitem [ref=e210]:
+            - link "News" [ref=e211] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e212]:
+            - link "Blog" [ref=e213] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e214]:
+            - link "Recently viewed products" [ref=e215] [cursor=pointer]:
+              - /url: /recentlyviewedproducts
+          - listitem [ref=e216]:
+            - link "Compare products list" [ref=e217] [cursor=pointer]:
+              - /url: /compareproducts
+          - listitem [ref=e218]:
+            - link "New products" [ref=e219] [cursor=pointer]:
+              - /url: /newproducts
+      - generic [ref=e220]:
+        - heading "My account" [level=3] [ref=e221]
+        - list [ref=e222]:
+          - listitem [ref=e223]:
+            - link "My account" [ref=e224] [cursor=pointer]:
+              - /url: /customer/info
+          - listitem [ref=e225]:
+            - link "Orders" [ref=e226] [cursor=pointer]:
+              - /url: /customer/orders
+          - listitem [ref=e227]:
+            - link "Addresses" [ref=e228] [cursor=pointer]:
+              - /url: /customer/addresses
+          - listitem [ref=e229]:
+            - link "Shopping cart" [ref=e230] [cursor=pointer]:
+              - /url: /cart
+          - listitem [ref=e231]:
+            - link "Wishlist" [ref=e232] [cursor=pointer]:
+              - /url: /wishlist
+      - generic [ref=e233]:
+        - heading "Follow us" [level=3] [ref=e234]
+        - list [ref=e235]:
+          - listitem [ref=e236]:
+            - link "Facebook" [ref=e237] [cursor=pointer]:
+              - /url: http://www.facebook.com/nopCommerce
+          - listitem [ref=e238]:
+            - link "Twitter" [ref=e239] [cursor=pointer]:
+              - /url: https://twitter.com/nopCommerce
+          - listitem [ref=e240]:
+            - link "RSS" [ref=e241] [cursor=pointer]:
+              - /url: /news/rss/1
+          - listitem [ref=e242]:
+            - link "YouTube" [ref=e243] [cursor=pointer]:
+              - /url: http://www.youtube.com/user/nopCommerce
+          - listitem [ref=e244]:
+            - link "Google+" [ref=e245] [cursor=pointer]:
+              - /url: https://plus.google.com/+nopcommerce
+    - generic [ref=e246]:
+      - text: Powered by
+      - link "nopCommerce" [ref=e247] [cursor=pointer]:
+        - /url: http://www.nopcommerce.com/
+    - generic [ref=e248]: Copyright © 2025 Tricentis Demo Web Shop. All rights reserved.
+```
